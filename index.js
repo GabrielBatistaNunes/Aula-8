@@ -9,6 +9,7 @@ c. true
 d. boolean
 
 2.
+não há number antes do prompt
 vai dar os dois números juntos, por serem interpretados como texto
 
 3.
@@ -78,3 +79,30 @@ n3 = Number(0);
 console.log("O", n1, "é divisível por", n2, "?", divd12 <= n3);
 console.log("O", n2, "é divisível por", n1, "?", divd21 <= n3);
 */
+
+//a
+/*f = 77
+console.log(k = (f - 32) * (5 / 9) + 273.15);
+*/
+/*
+//b
+c = 80
+console.log(f = (c) * (9 / 5) + 32);
+*/
+
+//c
+/*
+c = 30
+f = (c) * (9 / 5) + 32;
+k = (f - 32) * (5 / 9) + 273.15
+console.log("30 graus em Fahrenheit é:", f, "--", "30 graus em Kelvin é", k);
+*/
+/*
+//d
+c = Number(prompt("Quantos graus para ser convertido?"));
+f = (c) * (9 / 5) + 32;
+k = (f - 32) * (5 / 9) + 273.15
+console.log(c, "graus em Fahrenheit é:", f,"--", c, "graus em Kelvin é", k);
+*/
+
+//2
