@@ -57,25 +57,31 @@ console.log(rdp2);
 //3.
 //a
 /*
-age = Number(prompt("Sua idade"));
+let age = Number(prompt("Sua idade"));
 console.log("Idade em anos", age);
-meses = Number(age * 12);
+let meses = Number(age * 12);
 console.log("Sua idade em meses:", meses);
-days = Number(meses * 365);
+let days = Number(meses * 30);
 console.log("Sua idade em dias", days);
-hrs = Number(days * 24);
+let hrs = Number(days * 24);
 console.log("Sua idade em horas", hrs);
 */
+
 /*
-n1 = prompt("escolha um número");
-n2 = prompt("escolha outro número");
+//4
+let n1 = prompt("escolha um número");
+let n2 = prompt("escolha outro número");
 console.log(Number(n1));
 console.log(Number(n2));
 console.log("O", n1, "é maior que", n2, "?", n1 > n2);
 console.log("O", n1, "é igual ao", n2, "?", n1 === n2);
-divd12 = Number(n1 % n2);
-divd21 = Number(n2 % n1);
-n3 = Number(0);
+let divd12 = Number(n1 % n2);
+let divd21 = Number(n2 % n1);
+let n3 = Number(0);
+
+"ou"
+Boolean(n1 % n2);
+
 console.log("O", n1, "é divisível por", n2, "?", divd12 <= n3);
 console.log("O", n2, "é divisível por", n1, "?", divd21 <= n3);
 */
